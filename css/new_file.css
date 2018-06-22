@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.content {
+	position: absolute;
+}
+
+.page {
+	/*相对定位*/
+	position: relative;
+}
+
+img {
+	position: absolute;
+}
+
+.page1 {
+	background: #00ccff;
+}
+
+.page1-building {
+	width: 100%;
+	height: 20%;
+	bottom: 0;
+	display: none;
+}
+
+.page1-elements {
+	width: 100%;
+	height: 100%;
+	animation: zooming 2s linear infinite;
+}
+
+.page1-cloud {
+	width: 100%;
+	height: 100%;
+	animation: zooming 3s linear infinite;
+}
+
+@keyframes zooming {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.8);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.page1-flight {
+	width: 0px;
+	height: 30%;
+	left: 20px;
+	top: 240px;
+	animation: flight 0.2s linear infinite;
+}
+
+@keyframes flight {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.5);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+.page1-txt {
+	width: 70%;
+	height: 25%;
+	top: 35px;
+	left: 48px;
+}
+
+.page1-flowers1 {
+	width: 25%;
+	height: 15%;
+	top: 90px;
+	left: 195px;
+	z-index: 1;
+	animation: rotate 3s linear infinite;
+}
+
+.page1-flowers2 {
+	width: 25%;
+	height: 25%;
+	top: 0px;
+	left: 20px;
+	z-index: 1;
+	animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(15deg);
+	}
+	50% {
+		transform: rotate(0deg);
+	}
+	75% {
+		transform: rotate(-15deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.page1-stars {
+	width: 100%;
+	height: 100%;
+}
+
+.page2 {
+	background: goldenrod;
+}
+
+.page2-bg {
+	width: 100%;
+	height: 100%;
+}
+
+.page2-farm {
+	width: 80%;
+	height: 15%;
+	right: 0%;
+	top: 55%;
+	display: none;
+}
+
+.page2-it {
+	width: 80%;
+	height: 15%;
+	right: 0%;
+	top: 25%;
+	display: none;
+}
+
+.page2-star {
+	width: 100%;
+	height: 100%;
+}
+
+.page3 {
+	background: tomato;
+}
+
+.page3-earlyBg{
+	width: 100%;
+	height: 100%;
+}
+
+.page3-lastBusStation{
+	width: 100%;
+	bottom: 0;
+	z-index: 1;
+}
+
+.page3-bus{
+	width: 55%;
+	height: 25%;
+	bottom: 8%;
+	left: 0%;
+	z-index: 2;
+}
+
+.page3-lastBusAvatar{
+	width: 28%;
+	height: 15%;
+	bottom: 8%;
+	right: 10%;
+	z-index: 2;
+}
+
+.page3-earlyTitle{
+	width: 40%;
+	height: 8%;
+	top: 0%;
+	left: 0%;
+	z-index: 2;
+	display: none;
+}
+
+.page3-lastBusTitle{
+	width: 40%;
+	height: 7%;
+	top: 12%;
+	left: 0%;
+	z-index: 2;
+	display: none;
+}
+
+.page3-myTeamWall{
+	width: 35%;
+	height: 66%;
+	right: 0%;
+	bottom: 0;
+	z-index: 2;
+	display: none;
+}
+
+.page3-myTeamAvatar{
+	width: 50%;
+	height: 30%;
+	right: 0%;
+	top: 11%;
+	display: none;
+}
+
+.page3-myTeamWhere{
+	width: 0%;
+	height: 10%;
+	left: 0%;
+	bottom: 5%;
+}
+
+.page3-myTeamSpace{
+	width: 0%;
+	height: 35%;
+	left: 0%;
+	top: 5%;
+}
+
+
+.page4 {
+	background: chartreuse;
+}
+.page4-clickGuide{
+	width: 80%;
+	bottom: 55%;
+	left: 15%;
+}
+.page4-lightOff{
+	width: 30%;
+	left: -5%;
+	height: 70%;
+	bottom: 0%;
+}
+.page4-lightOffBg{
+	width: 100%;
+}
+.page4-cornerTitle{
+	width: 50%;
+	right: 0%;
+}
+.page4-lightOnBg{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.page4-weKnowYou{
+	width: 65%;
+	height: 15%;
+	left: 30%;
+	top: 30%;
+	display: none;
+}
+
+.page4-lightOn{
+	width: 30%;
+	left: -5%;
+	height: 70%;
+	bottom: 0%;
+	z-index: 2;
+	display: none;
+}
+
+
