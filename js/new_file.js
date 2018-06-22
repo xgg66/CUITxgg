@@ -70,6 +70,17 @@ $(function() {
 		$(".page4-lightOn").fadeIn();
 		$(".page4-weKnowYou").fadeIn();
 	})
+$(".musicBtn").click(function(){
+	var music=$("#music")[0];
+	if(music.paused){
+		music.paly();
+		$("this").attr("src","img/musicBtn.png")
 
+	}
+	else{
+		music.pause();
+		$("this").attr("src","img/musicBtnOff.png")
+	}
+})
 	
 })

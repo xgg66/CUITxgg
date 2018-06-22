@@ -273,5 +273,9 @@ img {
 	z-index: 2;
 	display: none;
 }
+.musicBtn{
+	right: 0;
+	top: 0%;
+}
 
 
